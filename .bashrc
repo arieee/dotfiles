@@ -3,7 +3,7 @@ alias emacs="/home/ysuzuki/local/bin/emacs"
 alias tmux="tmux -u"
 #TERM="screen-256color"
 export LSCOLORS=gxfxcxdxbxegedabagacad
-export LANG=ja_JP.UTF-8
+export LANG=en_US.UTF-8
 export LESSCHARSET=utf-8
 export PATH=$HOME/disk/local/bin:$HOME/local/bin:$PATH:$HOME/local/aribin
 
@@ -22,6 +22,7 @@ HISTSIZE=100000
 HISTFILESIZE=100000
 
 #prompt
+PS1='\[\e[0;33m\]\u@\h\[\e[00m\]:\[\e[0;37m\]\w\$ \[\e[00m\]'
 
 #aliases
 alias cp="cp -i"
