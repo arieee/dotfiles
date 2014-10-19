@@ -27,7 +27,11 @@ source $HOME/local/arilib/completion/git-completion.bash #change by each environ
 PS1_SHOWDIRTYSTATE=true #?
 
 #prompt
-PS1='\[\e[0;33m\]\u@\h\[\e[00m\]:\[\e[0;37m\]\w $(__git_ps1 "[%s]")\$ \[\e[00m\]'
+PS1_YELLOW_BEGIN='\[\e[0;33m\]'
+PS1_WHITE_BEGIN='\[\e[0;37m\]'
+PS1_COLOR_END='\[\e[m\]'
+
+PS1="${PS1_YELLOW_BEGIN}\u@\h${PS1_COLOR_END}:${PS1_WHITE_BEGIN}\w $(__git_ps1 "[%s]")\$ ${PS1_COLOR_END}"
 
 #aliases
 alias cp="cp -i"
