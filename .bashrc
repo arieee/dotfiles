@@ -21,8 +21,13 @@ HISTCONTROL=ignoreboth
 HISTSIZE=100000
 HISTFILESIZE=100000
 
+# git settings
+source $HOME/local/arilib/completion/git-prompt.sh #change by each environment
+source $HOME/local/arilib/completion/git-completion.bash #change by each environment
+PS1_SHOWDIRTYSTATE=true #?
+
 #prompt
-PS1='\[\e[0;33m\]\u@\h\[\e[00m\]:\[\e[0;37m\]\w\$ \[\e[00m\]'
+PS1='\[\e[0;33m\]\u@\h\[\e[00m\]:\[\e[0;37m\]\w $(__git_ps1 "[%s]")\$ \[\e[00m\]'
 
 #aliases
 alias cp="cp -i"
