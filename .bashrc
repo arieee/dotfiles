@@ -6,6 +6,7 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 export LANG=en_US.UTF-8
 export LESSCHARSET=utf-8
 export PATH=$HOME/disk/local/bin:$HOME/local/bin:$PATH:$HOME/local/aribin
+export EDITOR="emacs"
 
 #lib64はpypyで追加
 export LD_LIBRARY_PATH=$HOME/local/lib
