@@ -1,5 +1,4 @@
 #alias ls="ls --color=auto --ignore-backups"
-alias ls="ls -G"
 alias tmux="tmux -u"
 #TERM="screen-256color"
 export LSCOLORS=gxfxcxdxbxegedabagacad
