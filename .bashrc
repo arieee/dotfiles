@@ -23,8 +23,8 @@ HISTSIZE=100000
 HISTFILESIZE=100000
 
 # git settings
-source $HOME/local/arilib/completion/git-prompt.sh #change by each environment
-source $HOME/local/arilib/completion/git-completion.bash #change by each environment
+source $HOME/local/lib/git/git-prompt.sh #change by each environment
+source $HOME/local/lib/git/git-completion.bash #change by each environment
 PS1_SHOWDIRTYSTATE=true #?
 
 #prompt
