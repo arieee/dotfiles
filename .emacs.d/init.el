@@ -12,6 +12,11 @@
 (setq default-buffer-file-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
 
+; not make backup files
+(setq make-backup-files nil)
+(setq auto-save-default nil)
+
+
 ; highlight selected region
 ;(transient-mark-mode t)
 
@@ -110,12 +115,13 @@
 		 "# -*- coding:utf-8 -*-"
 		 "\n"
 		 "import sys,os\n"
-		 "#import math,re,datetime\n"
+		 "#import math,re,datetime,time,random\n"
 		 "\n"
 		 _
 		 "\n"
 		 "if __name__ == \"__main__\":\n"
-		 )) auto-insert-alist))
+		 ))
+	      auto-insert-alist))
 
 ;;auto-complete
 (add-to-list 'load-path "~/.emacs.d/elisp/")
