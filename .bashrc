@@ -1,14 +1,15 @@
-alias ls="ls --color=auto --ignore-backups"
-alias emacs="/home/ysuzuki/local/bin/emacs"
+alias ls="ls --color=auto"
 alias tmux="tmux -u"
 #TERM="screen-256color"
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export LANG=en_US.UTF-8
 export LESSCHARSET=utf-8
-export PATH=$HOME/disk/local/bin:$HOME/local/bin:$PATH:$HOME/local/aribin
 export EDITOR="emacs"
 
-#lib64はpypyで追加
+# PATH SETTING
+# lib64はpypyで追加
+alias emacs="/home/ysuzuki/local/bin/emacs"
+export PATH=$HOME/disk/local/bin:$HOME/local/bin:$PATH:$HOME/local/aribin
 export LD_LIBRARY_PATH=$HOME/local/lib
 export LD_LIBRARY_PATH=$HOME/local/lib64:$LD_LIBRARY_PATH
 
