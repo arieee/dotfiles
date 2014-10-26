@@ -1,20 +1,10 @@
-#alias ls="ls --color=auto --ignore-backups"
 alias ls="ls -G"
 alias tmux="tmux -u"
 #TERM="screen-256color"
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export LANG=en_US.UTF-8
 export LESSCHARSET=utf-8
-export PATH=$HOME/disk/local/bin:$HOME/local/bin:$PATH:$HOME/local/aribin
 export EDITOR="emacs"
-
-#lib64はpypyで追加
-#export LD_LIBRARY_PATH=$HOME/local/lib
-#export LD_LIBRARY_PATH=$HOME/local/lib64:$LD_LIBRARY_PATH
-
-#export PYTHONPATH=/home/ysuzuki/local/arilib/python2.7
-#export PYTHONSTARTUP=/home/ysuzuki/.pythonstartup
-#export PKG_CONFIG_PATH=$HOME/local/lib/pkgconfig
 
 #history by tanikawa
 shopt -s histappend
