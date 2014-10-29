@@ -5,6 +5,10 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 export LANG=en_US.UTF-8
 export LESSCHARSET=utf-8
 export EDITOR="emacs"
+export PATH=$HOME/local/bin:/usr/local/bin:$PATH # home brew path /usr/local/bin
+
+export LD_LIBRARY_PATH=$/usr/local/lib
+#export LD_LIBRARY_PATH=$HOME/local/lib64:$LD_LIBRARY_PATH
 
 #history by tanikawa
 shopt -s histappend

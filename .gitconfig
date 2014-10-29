@@ -10,4 +10,3 @@
 	smudge = git-media-smudge %f
 [core]
 	excludesfile = ~/.gitignore
-
