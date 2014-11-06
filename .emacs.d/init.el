@@ -1,8 +1,11 @@
+;; init.el
+
 ;enable font-lock
 ;(when(fboundp 'global-font-lock-mode)(global-font-lock-mode t))
 ;(setq font-lock-maximum-decoration t)
 
-;use UTF-8
+; use UTF-8
+; 日本語入力に問題がありすぎたので，とりあえず全部入れ．何が有効で何がいらないか（もしくは追加が必要か）は要吟味・・
 (coding-system-put 'utf-8 'category 'utf-8)
 (set-language-info "Japanese" 'coding-priority(cons 'utf-8(get-language-info "Japanese" 'coding-priority)))
 (set-language-environment "Japanese")
@@ -13,6 +16,7 @@
 (set-default-coding-systems 'utf-8)
 
 ; not make backup files
+; ~ファイルが作られなくなる．gitでbackupだ！
 (setq make-backup-files nil)
 (setq auto-save-default nil)
 
@@ -78,10 +82,6 @@
 (show-paren-mode t) ;有効化
 ;; parenのスタイル : mixedは画面内に対応する括弧がある場合は括弧だけを，ない場合は括弧で囲まれた部分をハイライト
 (setq show-paren-style 'mixed)
-;; faceを変更
-;(set-face-background 'show-paren-match-face nil)
-;(set-face-underline-p 'show-paren-match-face "yellow")
-(set-face-background 'show-paren-match-face "color-219")
 
 ;; 現在行にunderlineを引いてくれる．
 (setq hl-line-face 'underline)
@@ -106,7 +106,13 @@
 ;;hookの追加
 (add-hook 'find-file-hooks 'auto-insert)
 
-;;pythonのtemplate
+
+;; Auto-insertの設定
+;; http://www.gfd-dennou.org/member/uwabami/cc-env/emacs/auto-insert_config.html
+;; auto-insert-modeでひな形を自動入力
+;; http://d.hatena.ne.jp/yutoichinohe/20130607/1370627890
+
+;; pythonのauto-insert template
 (setq auto-insert-alist
       (append '(
 		(("\\.py$"."python template")
@@ -139,7 +145,13 @@
 ;(define-key ac-menu-map "\C-p" 'ac-previous)
 
 
-;;helm
+;;; Helm
+;; Helm is incremental completion and selection narrowing frameword for Emacs.
+;; 公式のwiki
+;; https://github.com/emacs-helm/helm/wiki
+;; あらびき日記/Helmをストレスなく使うための個人的な設定
+;; http://d.hatena.ne.jp/a_bicky/20140104/1388822688
+
 (add-to-list 'load-path "~/.emacs.d/packages/helm")
 (when (require 'helm-config nil t)
   (helm-mode 1)
@@ -168,6 +180,25 @@
     (when (file-exists-p candidate)
       ad-do-it)))
 
+;; faceを変更
+;; 以下に書かなくてもGUIっぽくわかりやすく色を変えられる
+;; http://memo.willnet.in/entry/2013/03/10/153820
+;; M-x list-faces-display
+;; 色を変えたいfaceをRETで選択, BackgroundのChooseにカーソル移動してRET->色を選ぶ
+;; Stateにカーソル移動してRET->1
+
+;(set-face-background 'show-paren-match-face nil)
+;(set-face-underline-p 'show-paren-match-face "yellow")
+; color-219 は 淡い赤のような色
+; list-colors-displayで使える色をcheck!
+(set-face-background 'show-paren-match-face "color-219")
+; auto-completeの色,defaultの選択色が黄色く，緑の文字とかぶって見にくいので変更
+; auto-completeって自動補完ね．色は別にどうでもよかった(helmを変えたい)
+;(set-face-background 'ac-completion-face "red")
+;(set-face-foreground 'ac-candidate-face "color-172")
+;(set-face-background 'ac-selection-face "blue")
+
+
 ;;js2-mode setting https://raw.github.com/mooz/js2-mode/master/js2-mode.el
 (autoload 'js2-mode "js2-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
@@ -184,3 +215,17 @@
 	 (+ (third before-init-time) (* 1000000 (second before-init-time))))
       1000)))
 (add-hook 'after-init-hook 'message-startup-time)
+
+;; Cutome-setting (auto-add?)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(helm-selection ((t (:background "color-161" :underline t)))))
