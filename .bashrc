@@ -5,10 +5,18 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 export LANG=en_US.UTF-8
 export LESSCHARSET=utf-8
 export EDITOR="emacs"
-export PATH=$HOME/local/bin:/usr/local/bin:$PATH # home brew path /usr/local/bin
 
+
+# tkl path
 export LD_LIBRARY_PATH=$/usr/local/lib
-#export LD_LIBRARY_PATH=$HOME/local/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$HOME/local/lib64:$LD_LIBRARY_PATH
+export PATH=$HOME/disk/local/bin:$HOME/local/bin:$HOME/local/aribin:$PATH
+export PYTHONPATH=/home/ysuzuki/local/arilib/python2.7
+export PYTHONSTARTUP=/home/ysuzuki/.pythonstartup
+export PKG_CONFIG_PATH=$HOME/local/lib/pkgconfig
+
+# mac path
+#export PATH=$HOME/local/bin:/usr/local/bin:$PATH # home brew path /usr/local/bin
 
 #history by tanikawa
 shopt -s histappend
@@ -17,8 +25,8 @@ HISTSIZE=100000
 HISTFILESIZE=100000
 
 # git settings
-source $HOME/local/lib/git/git-prompt.sh #change by each environment
-source $HOME/local/lib/git/git-completion.bash #change by each environment
+source $HOME/local/arilib/git/git-prompt.sh #change by each environment
+source $HOME/local/arilib/git/git-completion.bash #change by each environment
 GIT_PS1_SHOWDIRTYSTATE=true
 
 #prompt
