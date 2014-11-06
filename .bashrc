@@ -1,21 +1,14 @@
-alias ls="ls --color=auto"
+alias ls="ls -G"
 alias tmux="tmux -u"
 #TERM="screen-256color"
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export LANG=en_US.UTF-8
 export LESSCHARSET=utf-8
 export EDITOR="emacs"
+export PATH=$HOME/local/bin:/usr/local/bin:$PATH # home brew path /usr/local/bin
 
-# PATH SETTING
-# lib64はpypyで追加
-alias emacs="/home/ysuzuki/local/bin/emacs"
-export PATH=$HOME/disk/local/bin:$HOME/local/bin:$PATH:$HOME/local/aribin
-export LD_LIBRARY_PATH=$HOME/local/lib
-export LD_LIBRARY_PATH=$HOME/local/lib64:$LD_LIBRARY_PATH
-
-export PYTHONPATH=/home/ysuzuki/local/arilib/python2.7
-export PYTHONSTARTUP=/home/ysuzuki/.pythonstartup
-export PKG_CONFIG_PATH=$HOME/local/lib/pkgconfig
+export LD_LIBRARY_PATH=$/usr/local/lib
+#export LD_LIBRARY_PATH=$HOME/local/lib64:$LD_LIBRARY_PATH
 
 #history by tanikawa
 shopt -s histappend
@@ -24,8 +17,8 @@ HISTSIZE=100000
 HISTFILESIZE=100000
 
 # git settings
-source $HOME/local/arilib/completion/git-prompt.sh #change by each environment
-source $HOME/local/arilib/completion/git-completion.bash #change by each environment
+source $HOME/local/lib/git/git-prompt.sh #change by each environment
+source $HOME/local/lib/git/git-completion.bash #change by each environment
 GIT_PS1_SHOWDIRTYSTATE=true
 
 #prompt
