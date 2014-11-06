@@ -8,6 +8,7 @@ export EDITOR="emacs"
 
 
 # tkl path
+
 export LD_LIBRARY_PATH=$HOME/local/lib:$HOME/local/lib64:$LD_LIBRARY_PATH
 export PATH=$HOME/disk/local/bin:$HOME/local/bin:$HOME/local/aribin:$PATH
 export PYTHONPATH=/home/ysuzuki/local/arilib/python2.7
