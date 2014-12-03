@@ -1,674 +1,884 @@
-((("Pref" .
+((("maxCountCity" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("prob" .
    [2 0 0 0])
-  ("chome" .
-   [1 0 0 0 0])
-  ("chomefile" .
-   [1 0 0 0 0 0 0 0 0])
-  ("cityfile" .
-   [1 0 0 0 0 0 0 0])
-  ("chomeCode" .
-   [3 0 0 0 0 0 0 0 0])
-  ("cityCode" .
-   [7 0 0 0 0 0 0 0])
-  ("prefCode" .
-   [9 0 0 0 0 0 0 0])
-  ("freqRation" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("getScore" .
-   [1 0 0 0 0 0 0 0])
-  ("TermScore" .
-   [0 0 0 0 1 0 0 0 0])
-  ("contextScore" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("contextCnt" .
-   [3 0 0 0 0 0 0 1 0 0])
-  ("score" .
-   [15 0 0 0 0])
-  ("words" .
-   [9 0 0 0 0])
-  ("compWordHash" .
-   [4 0 0 0 0 0 0 0 0 0 0 0])
-  ("noun" .
-   [5 0 0 0])
-  ("compWord" .
-   [15 0 0 0 0 0 0 0])
-  ("CompWord" .
-   [1 0 0 0 2 0 0 0])
-  ("INPUT" .
-   [1 0 0 0 0])
-  ("input" .
-   [1 0 0 0 0])
-  ("features" .
-   [1 0 0 0 0 0 0 0])
-  ("percent" .
-   [1 0 0 0 0 0 0])
-  ("aroundWord" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("startTime" .
-   [0 0 0 0 0 1 0 0 0])
-  ("10000" .
-   [2 0 0 0 0])
-  ("learn" .
-   [2 0 0 0 0])
-  ("catTitle" .
-   [1 0 0 0 0 0 0 0])
-  ("loopCnt" .
-   [1 0 0 0 0 0 0])
-  ("thresholdCnt" .
-   [3 0 0 0 1 0 0 2 0 1 0 0])
-  ("coverCnt" .
-   [3 0 0 0 0 0 0 0])
-  ("eval" .
+  ("slot" .
    [1 0 0 0])
-  ("feature" .
+  ("result" .
+   [5 0 0 0 0 0])
+  ("diffmin" .
+   [4 0 0 0 0 0 0])
+  ("60" .
+   [2 0])
+  ("diff" .
+   [1 0 0 0])
+  ("timeExpUnixtime" .
+   [2 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("timeSlot" .
+   [10 0 0 0 0 0 0 0])
+  ("userGeoFoot" .
+   [0 0 0 0 1 0 0 1 0 0 0])
+  ("maxCountCityCode" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("bestIGRword" .
+   [5 0 0 0 2 1 0 0 0 0 0])
+  ("timeExp" .
+   [15 0 0 0 0 0 0])
+  ("userTimeExpDic" .
+   [0 0 0 0 0 0 2 0 5 0 0 0 0 0])
+  ("reverse" .
    [2 0 0 0 0 0 0])
-  ("coverNoun" .
-   [2 0 0 0 0 0 1 0 0])
-  ("allTags" .
-   [5 0 0 0 0 0 0])
-  ("allTag" .
-   [0 0 0 0 2 0])
-  ("catTag" .
-   [1 0 0 0 0 0])
-  ("NicoNico" .
-   [1 0 0 0 0 1 0 0])
-  ("tagSet" .
+  ("IGRdic" .
    [3 0 0 0 0 0])
-  ("tag" .
-   [8 0 0])
-  ("set" .
-   [1 0 0])
-  ("tags" .
-   [2 0 0 0])
-  ("evaluation" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("cost" .
-   [1 0 0 0])
-  ("calcCost" .
-   [0 0 0 0 1 0 0 0])
-  ("printDicLine" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("Word" .
-   [1 0 0 0])
-  ("originalForm" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("postagDetail1" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("postagDetail2" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("postag" .
-   [3 0 0 0 0 0])
-  ("node" .
-   [1 0 0 0])
-  ("sentence" .
-   [3 0 0 0 0 0 0 0])
-  ("next" .
-   [2 0 0 0])
-  ("MeCab" .
-   [1 0 1 0 0])
-  ("NicoTitle" .
-   [0 0 0 0 1 0 0 0 0])
-  ("title" .
-   [5 0 0 0 0])
-  ("json" .
-   [2 0 0 0])
-  ("PS1" .
-   [1 0 0])
-  ("devexp" .
-   [0 0 0 1 0 0])
-  ("devSetting" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("prediction" .
-   [8 0 0 0 0 0 0 1 1 0])
-  ("predictCityIndex" .
-   [0 0 0 1 1 2 0 0 0 0 0 0 0 0 0 0])
-  ("nearest" .
-   [0 0 0 0 0 0 1])
-  ("featureCityDic" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("cityPriorProb" .
-   [0 0 0 0 0 1 0 1 0 0 0 0 0])
-  ("tweetNUM" .
-   [1 0 0 0 0 0 0 0])
-  ("cityProbability" .
-   [0 0 0 0 0 1 0 6 0 0 0 0 0 0 0])
-  ("stdin" .
-   [4 0 0 0 0])
-  ("lineCnt" .
-   [12 0 0 0 0 0 1])
-  ("featureNUM" .
-   [2 0 0 0 0 0 0 1 0 0])
-  ("lineNUM" .
-   [3 0 0 0 0 0 0])
-  ("Dev" .
-   [1 0 0])
-  ("IGRpercent" .
-   [4 0 0 0 1 0 0 0 0 0])
-  ("cityCntList" .
+  ("igrStock" .
+   [4 0 0 0 0 0 0 0])
+  ("plist" .
+   [1 0 0 0 0])
+  ("timeExpFlag" .
    [2 0 0 0 0 0 0 0 0 0 0])
-  ("cityCnt" .
-   [1 0 0 0 0 0 0])
-  ("fw6" .
-   [1 0 0])
-  ("key" .
-   [3 0 0])
-  ("start_time" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("ALL" .
-   [1 0 0])
-  ("time" .
-   [8 0 0 0])
-  ("learningCnt" .
-   [3 0 0 0 1 0 0 0 0 0 0])
-  ("fw4" .
-   [1 0 0])
-  ("sumCnt" .
+  ("flist" .
+   [4 0 0 0 0])
+  ("parser" .
    [2 0 0 0 0 0])
-  ("cityName" .
+  ("timeExpDic" .
+   [3 0 0 0 1 3 0 0 0 0])
+  ("identifi" .
    [1 0 0 0 0 0 0 0])
-  ("index" .
-   [5 0 0 0 0])
-  ("load" .
+  ("identif" .
+   [0 0 0 0 1 0 1])
+  ("type" .
    [1 0 0 0])
-  ("wordIGRDic" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("pickle" .
+  ("linei" .
+   [2 0 0 0 0])
+  ("check_output" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("userNUM" .
+   [3 0 0 0 0 0 0])
+  ("end" .
+   [1 0 0])
+  ("subprocess" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("allWordSumCt" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("dstr" .
+   [3 0 0 0])
+  ("dayi" .
+   [1 0 0 0])
+  ("tweetDateTime" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0])
+  ("day" .
+   [4 0 0])
+  ("userPastTweets" .
+   [4 0 0 0 2 3 0 0 1 0 0 0 0 0])
+  ("strftime" .
+   [2 0 0 0 0 0 0 0])
+  ("daysWindow" .
+   [7 0 0 0 3 2 0 0 0 0])
+  ("meanInterval" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("sigmaInterval" .
+   [1 0 0 0 1 0 1 0 0 0 0 0 0])
+  ("numpy" .
+   [3 0 0 0 0])
+  ("median" .
+   [1 0 0 0 0 0])
+  ("medianInterval" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("twiTimeList" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("allTweetInterval" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("allTweetCnt" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("userTwiTime" .
+   [1 0 0 0 1 0 0 0 0 0 0])
+  ("use" .
+   [1 0 0])
+  ("unixtime" .
+   [7 0 0 0 0 0 0 0])
+  ("tweetid" .
+   [1 0 0 0 0 0 0])
+  ("datetime" .
+   [6 0 0 0 0 0 0 0])
+  ("featureSumCnt" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("avgErrorDis" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("ACC50" .
+   [2 0 0 0 0])
+  ("errordis" .
+   [1 0 0 0 0 0 0 0])
+  ("errorDis" .
+   [0 0 0 0 0 2 1 0])
+  ("ACC161" .
+   [4 0 0 0 0 0])
+  ("161" .
+   [1 0 0])
+  ("ACC10" .
+   [3 0 0 0 0])
+  ("ACC" .
+   [4 0 0])
+  ("cityDis" .
+   [2 0 0 0 0 0 0])
+  ("predictCityCode" .
+   [2 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("funcName" .
+   [0 0 0 1 0 0 0 0])
+  ("interval" .
+   [7 0 0 0 0 0 0 0])
+  ("printOut" .
+   [2 0 0 0 0 0 0 0])
+  ("merge" .
+   [4 0 0 0 0])
+  ("close" .
+   [2 0 0 0 0])
+  ("fWordIGRDic" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("fWordCityDic" .
+   [1 0 0 0 0 0 0 1 0 0 0 0])
+  ("wordCity" .
+   [1 0 0 0 0 0 0 0])
+  ("fCityTweetSum" .
+   [0 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("wordCityCnt" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("normal" .
+   [1 0 0 0 0 0])
+  ("23238" .
+   [1 0 0 0 0])
+  ("nearestCityCode" .
+   [10 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("nearestChome" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("NULL" .
+   [2 0 0 0])
+  ("chomeDis" .
+   [2 0 0 0 0 0 0 0])
+  ("query" .
+   [6 0 0 0 0])
+  ("chomeHash" .
+   [5 0 0 0 0 0 0 0 0])
+  ("ch" .
+   [4 0])
+  ("ct" .
+   [2 0])
+  ("plusMinus1" .
+   [2 0 0 0 0 0 1 0 0 0])
+  ("False" .
+   [4 0 0 0 0])
+  ("PATH" .
+   [1 0 0 0])
+  ("export" .
+   [3 0 0 0 0 0])
+  ("debug" .
+   [8 0 0 0 0])
+  ("Chome" .
+   [3 0 0 0 0])
+  ("thresholdWordCount" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("10" .
+   [4 0])
+  ("the" .
+   [1 0 0])
+  ("ProcessLog" .
+   [2 0 0 1 0 1 1 0 0 0])
+  ("util" .
+   [3 0 0 0])
+  ("preWord" .
+   [1 0 0 0 0 0 0])
+  ("SimpleMecab" .
+   [0 0 0 1 0 0 0 1 0 0 0])
+  ("cut" .
+   [2 0 0])
+  (".mecabform" .
+   [0 0 0 0 0 1 2 0 0 0])
+  (".list" .
+   [3 0 0 0 0])
+  ("dicDir" .
+   [1 0 0 1 0 0])
+  ("/bin/nicoTitle.py" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("nicoDir" .
+   [0 0 0 0 0 0 1])
+  ("python" .
+   [1 0 0 0 0 0])
+  ("thresholdPercent" .
+   [3 0 0 0 1 0 0 1 0 0 0 1 2 0 0 0])
+  ("thresholdCounts" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("/conc/" .
+   [4 0 0 0 0 0])
+  ("echo" .
+   [1 0 0 0])
+  ("dicName" .
+   [4 0 0 0 1 0 0])
+  ("longavg" .
+   [2 0 0 0 0 0 0])
+  ("latavg" .
+   [2 0 0 0 0 0])
+  ("lat" .
+   [1 0 0])
+  ("sum" .
+   [7 0 0])
+  ("allprefectureCity" .
+   [0 0 0 2 1 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("near7prefecture" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("minCityIndex" .
+   [0 0 0 0 0 0 0 2 0 0 0 0])
+  ("minDistance" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("near5prefecture" .
+   [0 0 0 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("disPrefecture" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0])
+  ("plong" .
+   [2 0 0 0 0])
+  ("plat" .
+   [2 0 0 0])
+  ("dis" .
+   [4 0 0])
+  ("prefecture" .
+   [3 0 0 0 1 1 0 0 0 0])
+  ("OrderedDict" .
+   [1 0 0 0 0 2 0 0 0 0 0])
+  ("values" .
+   [4 0 0 0 0 0])
+  ("printIGR" .
+   [2 0 0 0 0 0 0 0])
+  ("calcIGR" .
+   [2 0 0 0 1 0 0])
+  ("IGR" .
+   [5 0 0])
+  ("IEnt" .
+   [1 0 0 0])
+  ("wordIGRdic" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("wordProb" .
+   [2 0 0 0 0 2 0 0])
+  ("InformationGain" .
+   [1 0 0 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("condEnt" .
+   [1 0 0 0 0 0 0])
+  ("log" .
+   [4 0 0])
+  ("condProb" .
+   [4 0 0 0 0 0 0 0])
+  ("entropy" .
+   [5 0 0 0 0 0 0])
+  ("cityEntropy" .
+   [1 0 0 0 0 0 0 1 0 0 0])
+  ("prob_c" .
+   [2 0 0 0 0 0])
+  ("allTweetSum" .
+   [0 0 0 2 0 0 0 0 0 0 0])
+  ("tweetCt" .
+   [3 0 0 0 0 0 0])
+  ("wordCityDic" .
+   [10 0 1 2 4 1 1 0 2 0 0])
+  ("wordSumCt" .
+   [1 0 0 1 1 0 0 1 0])
+  ("allwordSumCt" .
+   [1 0 0 0 0 1 0 0 0 0 0 0])
+  ("cityTweetSum" .
+   [4 0 0 0 1 1 2 1 1 0 0 0])
+  ("nearestCityID" .
+   [4 0 0 0 0 0 0 0 0 2 0 0 0])
+  ("distanceToNearestCity" .
+   [0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("nearestCity" .
+   [1 0 0 0 0 0 0 0 1 0 0])
+  ("cityDic" .
+   [1 0 0 0 0 0 0])
+  ("CityDic" .
+   [2 0 0 0 0 0 0])
+  ("defaultdict" .
+   [24 0 0 0 0 1 1 0 0 0 0])
+  ("surface" .
+   [1 0 0 0 0 0 0])
+  ("LightMecab" .
+   [0 0 0 0 0 2 0 0 0 0])
+  ("mecab" .
+   [1 0 0 0 0])
+  ("as" .
+   [6 0])
+  ("with" .
+   [7 0 0 0])
+  ("pdic" .
+   [2 0 0 0])
+  ("replace" .
+   [1 0 0 0 0 0 0])
+  ("geo_long" .
+   [1 0 0 0 0 0 0 0])
+  ("fout" .
+   [1 0 0 0])
+  ("glong" .
+   [3 0 0 0 0])
+  ("glat" .
+   [4 0 0 0])
+  ("geo_lat_data" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("minPopulation" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("min" .
+   [1 0 0])
+  ("regioncodeToName" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("code" .
+   [7 0 0 0])
+  ("regioncodeDic" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("representiveCityIndexList" .
+   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("maxPcityIndex" .
+   [0 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("stderr" .
+   [14 0 0 0 0 0])
+  ("sumup" .
+   [2 0 0 0 0])
+  ("Japan" .
+   [2 0 0 0 0])
+  ("del" .
+   [2 0 0])
+  ("newregion" .
+   [6 0 0 0 0 0 0 0 0])
+  ("yield" .
+   [2 0 0 0 0])
+  ("break" .
+   [5 0 0 0 0])
+  ("None" .
+   [29 0 0 0])
+  ("combinedCityIndexList" .
+   [0 0 0 0 0 3 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("not" .
+   [14 0 0])
+  ("max" .
+   [8 0 0])
+  ("joinCityIndexList" .
+   [1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0])
+  ("joinkm" .
+   [4 0 0 0 0 0])
+  ("great_circle_distance" .
+   [0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("and" .
+   [11 0 0])
+  ("long" .
+   [1 0 0 0])
+  ("maxPCityIndex" .
+   [1 0 0 0 0 0 0 0 1 0 1 0 0])
+  ("maxIndex" .
+   [1 0 0 0 0 0 0 0])
+  ("enumerate" .
+   [9 0 0 0 0 0 0 0 0])
+  ("maxPopCity" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("maxPopulation" .
+   [1 0 0 0 0 0 2 1 0 0 0 0 0])
+  ("regiocode" .
+   [1 0 0 0 0 0 0 0 0])
+  ("region" .
+   [14 0 0 0 0 0])
+  ("re" .
+   [5 0])
+  ("City" .
+   [5 0 0 0])
+  ("cities" .
+   [25 0 0 0 0 0])
+  ("__init__" .
+   [5 0 0 0 0 0 0 0])
+  ("population" .
+   [7 0 1 6 2 1 0 0 0 0])
+  ("regioncode" .
+   [8 0 0 0 1 2 3 0 0 0])
+  ("geolong" .
+   [33 0 0 0 0 0 0])
+  ("geolat" .
+   [33 0 0 0 0 0])
+  ("name" .
+   [23 0 0 0])
+  ("city" .
+   [43 0 0 0])
+  ("filename" .
+   [4 0 0 0 0 0 0 0])
+  ("1000" .
+   [9 0 0 0])
+  ("radians" .
+   [3 0 0 0 0 0 0])
+  ("36" .
+   [3 0])
+  ("condition" .
+   [1 0 0 0 0 0 0 0 0])
+  ("researchMerger" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("research" .
+   [0 0 0 0 1 0 0 0])
+  ("elif" .
+   [11 0 0 0])
+  ("100" .
+   [8 0 0])
+  ("map" .
+   [17 0 0])
+  ("user" .
+   [5 0 0 0])
+  ("foursquare" .
+   [0 0 0 1 1 0 0 0 0 0])
+  ("foreignGeotagCount" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("percentage" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("geotagCount" .
+   [1 0 0 0 0 0 0 1 0 0 0])
+  ("tweetCount" .
+   [1 0 0 0 0 0 1 0 0 0])
+  ("unicode" .
+   [1 0 0 0 0 0 0])
+  ("~/dotfiles/" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("argv" .
+   [17 0 0 0])
+  ("sys" .
+   [47 0 0])
+  ("targetfile" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("timer" .
+   [0 0 0 0 1])
+  ("esup" .
+   [1 1 0 0])
+  ("MELPA" .
+   [0 0 1 0 0])
+  ("require" .
+   [0 0 0 0 2 0 0])
+  ("helm-mode" .
+   [0 0 0 0 0 0 0 1 0])
+  ("format" .
+   [22 0 2 0 0 0])
+  ("for" .
+   [124 0 1])
+  ("set-face-background" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("show-paren-mode" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("show-paren-match-face" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("def" .
+   [49 0 0])
+  ("class" .
+   [13 0 0 0 0])
+  ("open" .
+   [26 0 0 0])
+  ("in" .
+   [137 0])
+  ("line" .
+   [71 0 0 0])
+  ("self" .
+   [308 0 0 0])
+  ("list" .
+   [18 0 0 0])
+  ("dict" .
+   [21 0 0 0])
+  ("header" .
+   [1 0 0 0 0 0])
+  ("datahouse" .
+   [1 0 0 0 1 0 0 0 0])
+  ("column" .
+   [2 0 0 0 1 0])
+  ("strip" .
+   [31 0 0 0 0])
+  ("split" .
+   [22 0 0 0 0])
+  ("items" .
+   [52 0 0 0 0])
+  ("item" .
+   [3 0 0 0])
+  ("date" .
+   [5 0 0 0])
+  ("funcname" .
+   [3 0 0 0 2 0 0 0])
+  ("target" .
+   [3 0 0 0 0 0])
+  ("donelogfilelist" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("donelogfilepath" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("donelogfilename" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("if" .
+   [77 0])
+  ("import" .
+   [29 0 0 0 0 0])
+  ("random" .
+   [5 0 0 0 0 0])
+  ("from" .
+   [15 0 0 0])
+  ("setproctitle" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("cmd" .
+   [13 0 0])
+  ("userid" .
+   [32 0 0 0 0 0])
+  ("useridlistfile" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("fid" .
+   [1 0 0])
+  ("userGeotagSurveyDic" .
+   [0 0 0 0 6 4 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("merger" .
+   [6 0 0 0 0 0])
+  ("filepath" .
+   [2 0 0 0 0 0 0 0])
+  ("int" .
+   [58 0 0])
+  ("str" .
+   [24 0 0])
+  ("glob" .
+   [4 0 0 0])
+  ("file" .
+   [2 0 0 0])
+  ("files" .
+   [3 0 0 0 0])
+  ("fname" .
+   [7 0 0 0 0])
+  ("ngram" .
+   [13 0 0 0 0])
+  ("count" .
+   [29 0 0 0 0])
+  ("ngramdic" .
+   [5 0 0 0 0 0 0 0])
+  ("else" .
+   [21 0 0 0])
+  ("sorted" .
+   [17 0 0 0 0 0])
+  ("lambda" .
+   [21 0 0 0 0 0])
+  ("reversed" .
+   [2 0 0 0 0 0 0 0])
+  ("tuple" .
+   [6 0 0 0 0])
+  ("True" .
+   [16 0 0 0])
+  ("f_out" .
+   [3 0 0 0 0])
+  ("write" .
+   [20 0 0 0 0])
+  ("join" .
+   [9 0 0 0])
+  ("counts" .
+   [2 0 0 0 0 0])
+  ("output" .
+   [6 0 0 0 0 0])
+  ("print" .
+   [93 0 0 0 0])
+  ("range" .
+   [31 0 0 0 0])
+  ("append" .
+   [20 0 0 0 0 0])
+  ("ngramlist" .
+   [4 0 0 0 0 0 0 0 0])
+  ("ngram_utf8" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("word" .
+   [53 0 0 0])
+  ("try" .
+   [12 0 0])
+  ("except" .
+   [9 0 0 0 0 0])
+  ("continue" .
+   [19 0 0 0 0 0 0 0])
+  ("len" .
+   [42 0 0])
+  ("decode" .
+   [22 0 0 0 0 0])
+  ("UnicodeDecodeError" .
+   [0 0 0 1 2 1 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("encode" .
+   [21 0 0 0 0 0])
+  ("raise" .
+   [1 0 0 0 0])
+  ("while" .
+   [2 0 0 0 0])
+  ("readline" .
+   [7 0 0 0 0 0 0 0])
+  ("~/.emacs.d" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("outputfilepath" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("math" .
+   [18 0 0 0])
+  ("abs" .
+   [1 0 0])
+  ("geo_lat1" .
+   [4 0 0 0 0 0 0 0])
+  ("geo_lat" .
+   [1 0 0 1 0 0 0])
+  ("geo_lat2" .
+   [8 0 0 0 0 0 0 0])
+  ("fabs" .
+   [1 0 0 0])
+  ("geo_long2" .
+   [3 0 0 0 0 0 0 0 0])
+  ("geo_long1" .
+   [1 0 0 0 0 0 0 0 0])
+  ("float" .
+   [35 0 0 0 0])
+  ("u_y" .
+   [5 0 0])
+  ("distance" .
+   [4 0 0 0 0 0 0 0])
+  ("d_y" .
+   [3 0 0])
+  ("d_x" .
+   [3 0 0])
+  ("return" .
+   [11 0 0 0 0 0])
+  ("pass" .
+   [7 0 0 0])
+  ("cal_distance" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("sin" .
+   [1 0 0])
+  ("dym" .
+   [1 0 0])
+  ("dxncos" .
+   [1 0 0 0 0 0])
+  ("0" .
+   [3])
+  ("180" .
+   [2 0 0])
+  ("iter" .
+   [10 0 0 0])
+  ("text" .
+   [14 0 0 0])
+  ("or" .
+   [5 0])
+  ("search" .
+   [6 0 0 0 0 0])
+  ("dataDivide" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("fdev" .
+   [2 0 0 0])
+  ("dice" .
+   [1 0 0 0])
+  ("ftest" .
+   [2 0 0 0 0])
+  ("ftrain" .
    [2 0 0 0 0 0])
   ("linecount" .
    [9 0 0 0 0 0 0 0 0])
-  ("ftrain" .
-   [1 0 0 0 0 0])
-  ("ftest" .
-   [1 0 0 0 0])
-  ("dice" .
-   [1 0 0 0])
-  ("fdev" .
-   [1 0 0 0])
-  ("dataDivide" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("search" .
-   [6 0 0 0 0 0])
-  ("or" .
-   [3 0])
-  ("text" .
-   [10 0 0 0])
-  ("iter" .
-   [6 0 0 0])
-  ("180" .
-   [2 0 0])
-  ("0" .
-   [3])
-  ("dxncos" .
-   [1 0 0 0 0 0])
-  ("dym" .
-   [1 0 0])
-  ("sin" .
-   [1 0 0])
-  ("cal_distance" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("pass" .
-   [7 0 0 0])
-  ("return" .
+  ("pickle" .
    [3 0 0 0 0 0])
-  ("d_x" .
-   [3 0 0])
-  ("d_y" .
-   [3 0 0])
-  ("distance" .
-   [4 0 0 0 0 0 0 0])
-  ("u_y" .
-   [5 0 0])
-  ("float" .
-   [28 0 0 0 0])
-  ("geo_long1" .
-   [1 0 0 0 0 0 0 0 0])
-  ("geo_long2" .
-   [2 0 0 0 0 0 0 0 0])
-  ("fabs" .
+  ("wordIGRDic" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("load" .
    [1 0 0 0])
-  ("geo_lat2" .
-   [2 0 0 0 0 0 0 0])
-  ("geo_lat" .
-   [1 0 0 1 0 0 0])
-  ("geo_lat1" .
-   [2 0 0 0 0 0 0 0])
-  ("abs" .
-   [1 0 0])
-  ("math" .
-   [17 0 0 0])
-  ("outputfilepath" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("~/.emacs.d" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("readline" .
-   [3 0 0 0 0 0 0 0])
-  ("while" .
-   [2 0 0 0 0])
-  ("raise" .
-   [1 0 0 0 0])
-  ("encode" .
-   [15 0 0 0 0 0])
-  ("UnicodeDecodeError" .
-   [0 0 0 1 2 1 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("decode" .
-   [11 0 0 0 0 0])
-  ("len" .
-   [26 0 0])
-  ("continue" .
-   [12 0 0 0 0 0 0 0])
-  ("except" .
-   [7 0 0 0 0 0])
-  ("try" .
-   [10 0 0])
-  ("word" .
-   [30 0 0 0])
-  ("ngram_utf8" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("ngramlist" .
-   [4 0 0 0 0 0 0 0 0])
-  ("append" .
-   [13 0 0 0 0 0])
-  ("range" .
-   [18 0 0 0 0])
-  ("print" .
-   [74 0 0 0 0])
-  ("output" .
-   [4 0 0 0 0 0])
-  ("counts" .
+  ("index" .
+   [9 0 0 0 0])
+  ("cityName" .
+   [1 0 0 0 0 0 0 0])
+  ("sumCnt" .
    [2 0 0 0 0 0])
-  ("join" .
-   [3 0 0 0])
-  ("write" .
-   [14 0 0 0 0])
-  ("f_out" .
-   [3 0 0 0 0])
-  ("True" .
-   [6 0 0 0])
-  ("tuple" .
-   [5 0 0 0 0])
-  ("reversed" .
-   [2 0 0 0 0 0 0 0])
-  ("lambda" .
-   [10 0 0 0 0 0])
-  ("sorted" .
-   [8 0 0 0 0 0])
-  ("else" .
-   [10 0 0 0])
-  ("ngramdic" .
-   [5 0 0 0 0 0 0 0])
-  ("count" .
-   [17 0 0 0 0])
-  ("ngram" .
-   [13 0 0 0 0])
-  ("fname" .
-   [7 0 0 0 0])
-  ("files" .
-   [3 0 0 0 0])
-  ("file" .
-   [2 0 0 0])
-  ("glob" .
-   [4 0 0 0])
-  ("str" .
-   [19 0 0])
-  ("int" .
-   [25 0 0])
-  ("filepath" .
-   [2 0 0 0 0 0 0 0])
-  ("merger" .
-   [6 0 0 0 0 0])
-  ("userGeotagSurveyDic" .
-   [0 0 0 0 6 4 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("fid" .
+  ("fw4" .
    [1 0 0])
-  ("useridlistfile" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("userid" .
-   [14 0 0 0 0 0])
-  ("cmd" .
-   [6 0 0])
-  ("setproctitle" .
-   [0 0 0 0 1 0 0 0 0 0 0 0])
-  ("from" .
-   [9 0 0 0])
-  ("random" .
-   [2 0 0 0 0 0])
-  ("import" .
-   [21 0 0 0 0 0])
-  ("if" .
-   [35 0])
-  ("donelogfilename" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("donelogfilepath" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("donelogfilelist" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("target" .
-   [3 0 0 0 0 0])
-  ("funcname" .
-   [3 0 0 0 2 0 0 0])
-  ("date" .
-   [5 0 0 0])
-  ("item" .
-   [3 0 0 0])
-  ("items" .
-   [37 0 0 0 0])
-  ("split" .
-   [16 0 0 0 0])
-  ("strip" .
-   [25 0 0 0 0])
-  ("column" .
-   [2 0 0 0 1 0])
-  ("datahouse" .
-   [1 0 0 0 1 0 0 0 0])
-  ("header" .
-   [1 0 0 0 0 0])
-  ("dict" .
-   [15 0 0 0])
-  ("list" .
-   [9 0 0 0])
-  ("self" .
-   [187 0 0 0])
-  ("line" .
-   [60 0 0 0])
-  ("in" .
-   [85 0])
-  ("open" .
-   [24 0 0 0])
-  ("class" .
-   [12 0 0 0 0])
-  ("def" .
-   [38 0 0])
-  ("show-paren-match-face" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("show-paren-mode" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("set-face-background" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("for" .
-   [79 0 1])
-  ("format" .
-   [15 0 2 0 0 0])
-  ("helm-mode" .
-   [0 0 0 0 0 0 0 1 0])
-  ("require" .
-   [0 0 0 0 2 0 0])
-  ("MELPA" .
-   [0 0 1 0 0])
-  ("esup" .
-   [1 1 0 0])
-  ("timer" .
-   [0 0 0 0 1])
-  ("targetfile" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("sys" .
-   [31 0 0])
-  ("argv" .
+  ("learningCnt" .
+   [3 0 0 0 1 0 0 0 0 0 0])
+  ("time" .
    [11 0 0 0])
-  ("~/dotfiles/" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("unicode" .
-   [1 0 0 0 0 0 0])
-  ("tweetCount" .
-   [1 0 0 0 0 0 1 0 0 0])
-  ("geotagCount" .
-   [1 0 0 0 0 0 0 1 0 0 0])
-  ("percentage" .
-   [0 0 0 1 0 0 0 0 0 0])
-  ("foreignGeotagCount" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("foursquare" .
-   [0 0 0 1 1 0 0 0 0 0])
-  ("user" .
-   [2 0 0 0])
-  ("map" .
-   [10 0 0])
-  ("100" .
-   [6 0 0])
-  ("elif" .
-   [8 0 0 0])
-  ("research" .
-   [0 0 0 0 1 0 0 0])
-  ("researchMerger" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("condition" .
-   [1 0 0 0 0 0 0 0 0])
-  ("36" .
-   [3 0])
-  ("radians" .
-   [3 0 0 0 0 0 0])
-  ("1000" .
-   [3 0 0 0])
-  ("filename" .
-   [4 0 0 0 0 0 0 0])
-  ("city" .
-   [39 0 0 0])
-  ("name" .
-   [23 0 0 0])
-  ("geolat" .
-   [24 0 0 0 0 0])
-  ("geolong" .
-   [25 0 0 0 0 0 0])
-  ("regioncode" .
-   [8 0 0 0 1 2 3 0 0 0])
-  ("population" .
-   [7 0 1 6 2 1 0 0 0 0])
-  ("__init__" .
-   [5 0 0 0 0 0 0 0])
-  ("cities" .
-   [15 0 0 0 0 0])
-  ("City" .
-   [4 0 0 0])
-  ("re" .
-   [5 0])
-  ("region" .
-   [14 0 0 0 0 0])
-  ("regiocode" .
-   [1 0 0 0 0 0 0 0 0])
-  ("maxPopulation" .
-   [1 0 0 0 0 0 2 1 0 0 0 0 0])
-  ("maxPopCity" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("enumerate" .
-   [6 0 0 0 0 0 0 0 0])
-  ("maxIndex" .
-   [1 0 0 0 0 0 0 0])
-  ("maxPCityIndex" .
-   [1 0 0 0 0 0 0 0 1 0 1 0 0])
-  ("long" .
-   [1 0 0 0])
-  ("and" .
-   [7 0 0])
-  ("great_circle_distance" .
-   [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("joinkm" .
-   [4 0 0 0 0 0])
-  ("joinCityIndexList" .
-   [1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0])
-  ("max" .
-   [6 0 0])
-  ("not" .
-   [6 0 0])
-  ("combinedCityIndexList" .
-   [0 0 0 0 0 3 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("None" .
-   [8 0 0 0])
-  ("break" .
-   [3 0 0 0 0])
-  ("yield" .
-   [2 0 0 0 0])
-  ("newregion" .
-   [6 0 0 0 0 0 0 0 0])
-  ("del" .
+  ("ALL" .
    [1 0 0])
-  ("Japan" .
-   [2 0 0 0 0])
-  ("sumup" .
-   [2 0 0 0 0])
-  ("stderr" .
-   [9 0 0 0 0 0])
-  ("maxPcityIndex" .
-   [0 0 0 0 0 0 0 0 1 1 0 0 0])
-  ("representiveCityIndexList" .
-   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("regioncodeDic" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("code" .
-   [7 0 0 0])
-  ("regioncodeToName" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("min" .
-   [1 0 0])
-  ("minPopulation" .
-   [1 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("geo_lat_data" .
-   [0 0 0 0 0 0 1 0 0 0 0 0])
-  ("glat" .
-   [4 0 0 0])
-  ("glong" .
-   [3 0 0 0 0])
-  ("fout" .
-   [1 0 0 0])
-  ("geo_long" .
-   [1 0 0 0 0 0 0 0])
-  ("replace" .
-   [1 0 0 0 0 0 0])
-  ("pdic" .
-   [2 0 0 0])
-  ("with" .
-   [7 0 0 0])
-  ("as" .
-   [6 0])
-  ("mecab" .
-   [1 0 0 0 0])
-  ("LightMecab" .
-   [0 0 0 0 0 2 0 0 0 0])
-  ("surface" .
-   [1 0 0 0 0 0 0])
-  ("defaultdict" .
-   [8 0 0 0 0 0 1 0 0 0 0])
-  ("CityDic" .
-   [2 0 0 0 0 0 0])
-  ("cityDic" .
-   [1 0 0 0 0 0 0])
-  ("nearestCity" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("distanceToNearestCity" .
-   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("nearestCityID" .
-   [4 0 0 0 0 0 0 0 0 2 0 0 0])
-  ("cityTweetSum" .
-   [2 0 0 0 0 1 2 1 1 0 0 0])
-  ("allwordSumCt" .
-   [1 0 0 0 0 1 0 0 0 0 0 0])
-  ("wordSumCt" .
-   [1 0 0 1 1 0 0 0 0])
-  ("wordCityDic" .
-   [10 0 1 1 1 1 0 0 2 0 0])
-  ("tweetCt" .
-   [3 0 0 0 0 0 0])
-  ("allTweetSum" .
-   [0 0 0 2 0 0 0 0 0 0 0])
-  ("prob_c" .
-   [2 0 0 0 0 0])
-  ("cityEntropy" .
-   [1 0 0 0 0 0 0 1 0 0 0])
-  ("entropy" .
-   [5 0 0 0 0 0 0])
-  ("condProb" .
-   [4 0 0 0 0 0 0 0])
-  ("log" .
-   [4 0 0])
-  ("condEnt" .
-   [1 0 0 0 0 0 0])
-  ("InformationGain" .
-   [0 0 0 0 1 1 0 0 0 0 0 0 0 0 0])
-  ("wordProb" .
-   [2 0 0 0 0 2 0 0])
-  ("wordIGRdic" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("IEnt" .
-   [1 0 0 0])
-  ("IGR" .
-   [3 0 0])
-  ("calcIGR" .
-   [0 0 0 0 1 0 0])
-  ("printIGR" .
-   [1 0 0 0 0 0 0 0])
-  ("values" .
-   [1 0 0 0 0 0])
-  ("OrderedDict" .
-   [1 0 0 0 0 2 0 0 0 0 0])
-  ("prefecture" .
-   [3 0 0 0 1 1 0 0 0 0])
-  ("dis" .
-   [3 0 0])
-  ("plat" .
-   [1 0 0 0])
-  ("plong" .
-   [1 0 0 0 0])
-  ("disPrefecture" .
-   [0 0 0 0 2 0 0 0 0 0 0 0 0])
-  ("near5prefecture" .
-   [0 0 0 0 1 1 0 0 0 0 0 0 0 0 0])
-  ("minDistance" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("minCityIndex" .
-   [0 0 0 0 0 0 0 2 0 0 0 0])
-  ("near7prefecture" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("allprefectureCity" .
-   [0 0 0 2 1 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("sum" .
+  ("start_time" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("key" .
    [5 0 0])
-  ("lat" .
+  ("fw6" .
    [1 0 0])
-  ("latavg" .
-   [2 0 0 0 0 0])
-  ("longavg" .
-   [2 0 0 0 0 0 0])
-  ("dicName" .
-   [4 0 0 0 1 0 0])
-  ("echo" .
-   [1 0 0 0])
-  ("/conc/" .
-   [4 0 0 0 0 0])
-  ("thresholdCounts" .
-   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
-  ("thresholdPercent" .
-   [3 0 0 0 1 0 0 1 0 0 0 1 2 0 0 0])
-  ("python" .
-   [1 0 0 0 0 0])
-  ("nicoDir" .
-   [0 0 0 0 0 0 1])
-  ("/bin/nicoTitle.py" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("dicDir" .
-   [1 0 0 1 0 0])
-  (".list" .
-   [3 0 0 0 0])
-  (".mecabform" .
-   [0 0 0 0 0 1 2 0 0 0])
-  ("cut" .
-   [2 0 0])
-  ("SimpleMecab" .
-   [0 0 0 1 0 0 0 1 0 0 0])
-  ("preWord" .
+  ("cityCnt" .
    [1 0 0 0 0 0 0])
-  ("util" .
-   [1 0 0 0])
-  ("ProcessLog" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("the" .
+  ("cityCntList" .
+   [3 0 0 0 0 0 0 1 0 0 0])
+  ("IGRpercent" .
+   [4 0 0 2 1 0 0 0 0 0])
+  ("Dev" .
    [1 0 0])
-  ("10" .
-   [1 0])
-  ("thresholdWordCount" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("Chome" .
-   [2 0 0 0 0])
-  ("debug" .
+  ("lineNUM" .
+   [3 0 0 0 0 0 0])
+  ("featureNUM" .
+   [2 0 0 0 0 0 0 2 0 0])
+  ("lineCnt" .
+   [12 0 0 0 0 0 1])
+  ("stdin" .
    [7 0 0 0 0])
-  ("export" .
+  ("cityProbability" .
+   [0 0 0 0 0 1 0 6 0 0 0 0 0 0 0])
+  ("tweetNUM" .
+   [1 0 0 0 0 0 0 0])
+  ("cityPriorProb" .
+   [0 0 0 0 0 1 0 1 0 0 0 0 0])
+  ("featureCityDic" .
+   [3 0 0 0 0 0 0 0 0 1 1 1 0 0])
+  ("nearest" .
+   [2 0 0 0 1 0 1])
+  ("predictCityIndex" .
+   [0 0 0 1 1 2 0 0 0 0 0 0 0 0 0 0])
+  ("prediction" .
+   [8 0 0 0 0 0 0 1 1 0])
+  ("devSetting" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("devexp" .
+   [0 0 0 1 0 0])
+  ("PS1" .
+   [1 0 0])
+  ("json" .
+   [2 0 0 0])
+  ("title" .
+   [5 0 0 0 0])
+  ("NicoTitle" .
+   [0 0 0 0 1 0 0 0 0])
+  ("MeCab" .
+   [1 0 1 0 0])
+  ("next" .
+   [2 0 0 0])
+  ("sentence" .
+   [3 0 0 0 0 0 0 0])
+  ("node" .
+   [1 0 0 0])
+  ("postag" .
    [3 0 0 0 0 0])
-  ("PATH" .
+  ("postagDetail2" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("postagDetail1" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("originalForm" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Word" .
+   [1 0 0 0])
+  ("printDicLine" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("calcCost" .
+   [0 0 0 0 1 0 0 0])
+  ("cost" .
+   [1 0 0 0])
+  ("evaluation" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("tags" .
+   [2 0 0 0])
+  ("set" .
+   [10 0 0])
+  ("tag" .
+   [8 0 0])
+  ("tagSet" .
+   [3 0 0 0 0 0])
+  ("NicoNico" .
+   [1 0 0 0 0 1 0 0])
+  ("catTag" .
+   [1 0 0 0 0 0])
+  ("allTag" .
+   [0 0 0 0 2 0])
+  ("allTags" .
+   [5 0 0 0 0 0 0])
+  ("coverNoun" .
+   [2 0 0 0 0 0 1 0 0])
+  ("feature" .
+   [2 0 0 0 0 0 0])
+  ("eval" .
+   [1 0 0 0])
+  ("coverCnt" .
+   [3 0 0 0 0 0 0 0])
+  ("thresholdCnt" .
+   [3 0 0 0 1 0 0 2 0 1 0 0])
+  ("loopCnt" .
+   [1 0 0 0 0 0 0])
+  ("catTitle" .
+   [1 0 0 0 0 0 0 0])
+  ("learn" .
+   [6 0 0 0 0])
+  ("10000" .
+   [8 0 0 0 0])
+  ("startTime" .
+   [0 0 0 0 0 1 0 0 0])
+  ("aroundWord" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("percent" .
+   [1 0 0 0 0 0 0])
+  ("features" .
+   [1 0 0 0 0 0 0 0])
+  ("input" .
+   [1 0 0 0 0])
+  ("INPUT" .
+   [4 0 0 0 0])
+  ("CompWord" .
+   [1 0 0 0 2 0 0 0])
+  ("compWord" .
+   [15 0 0 0 0 0 0 0])
+  ("noun" .
+   [5 0 0 0])
+  ("compWordHash" .
+   [4 0 0 0 0 0 0 0 0 0 0 0])
+  ("words" .
+   [9 0 0 0 0])
+  ("score" .
+   [15 0 0 0 0])
+  ("contextCnt" .
+   [3 0 0 0 0 0 0 1 0 0])
+  ("contextScore" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("TermScore" .
+   [0 0 0 0 1 0 0 0 0])
+  ("getScore" .
+   [1 0 0 0 0 0 0 0])
+  ("freqRation" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("prefCode" .
+   [9 0 0 0 0 0 0 0])
+  ("cityCode" .
+   [22 0 0 0 0 0 0 0])
+  ("chomeCode" .
+   [3 0 0 0 0 0 0 0 0])
+  ("cityfile" .
+   [1 0 0 0 0 0 0 0])
+  ("chomefile" .
+   [1 0 0 0 0 0 0 0 0])
+  ("chome" .
+   [3 0 0 0 0])
+  ("Pref" .
+   [2 0 0 0])
+  ("12402" .
+   [1 0 0 0 0])
+  ("nerestCityCode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("distanceToNearest" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("parallel" .
+   [10 0 0 0 0 0 0 0])
+  ("identifier" .
+   [22 0 1 0 0 0 0 0 0 0])
+  ("pid" .
+   [22 0 0])
+  ("userDic" .
+   [5 0 0 0 0 0 0])
+  ("users" .
+   [13 0 0 0 0])
+  ("User" .
+   [1 0 0 0])
+  ("devNUM" .
+   [4 0 0 0 0 0])
+  ("train" .
+   [2 0 0 0 0])
+  ("xrange" .
+   [4 0 0 0 0 0])
+  ("testNUM" .
+   [2 0 0 0 0 0 0])
+  ("sample" .
+   [3 0 0 0 0 0])
+  ("devAndTestIndex" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("dev" .
+   [2 0 0])
+  ("devIndex" .
+   [3 0 0 0 0 0 0 0])
+  ("testIndex" .
+   [1 0 0 0 0 0 0 0 0])
+  ("test" .
+   [1 0 0 0])
+  ("divide" .
+   [1 0 0 0 0 0])
+  ("mean" .
    [1 0 0 0])))
