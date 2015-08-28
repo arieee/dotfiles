@@ -229,3 +229,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(helm-selection ((t (:background "color-161" :underline t)))))
+
+;; Tak told me
+;; for displaying full path of opened file
+(add-hook 'find-file-hooks
+'(lambda ()
+ (setq mode-line-buffer-identification 'buffer-file-truename)))
