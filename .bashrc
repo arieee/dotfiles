@@ -30,6 +30,15 @@ HISTCONTROL=ignoreboth
 HISTSIZE=100000
 HISTFILESIZE=100000
 
+# synchronize .bash_histoory frequently
+function share_history {
+    history -a
+    history -c
+    history -r
+}
+PROMPT_COMMAND='share_history'
+shopt -u histappend
+
 # git settings
 source $HOME/local/arilib/git/git-prompt.sh #change by each environment
 source $HOME/local/arilib/git/git-completion.bash #change by each environment
