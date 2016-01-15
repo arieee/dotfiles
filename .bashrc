@@ -67,8 +67,6 @@ alias rm="rm -i"
 export GIT_SSL_NO_VERIFY=1 #temp in new-comer training?
 
 #specify
-tera_user='suzukiyu01'
-tera_pass='fushigidane7R#h'
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages
 
 # pyenv
