@@ -1,8 +1,9 @@
-#alias ls="ls -G"
-alias ls="ls --color=auto"
+alias ls="ls -G"
+#alias ls="ls --color=auto"
 alias tmux="tmux -u"
 #TERM="screen-256color"
 export LSCOLORS=gxfxcxdxbxegedabagacad
+export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LESSCHARSET=utf-8
 export EDITOR="emacs"
@@ -60,8 +61,8 @@ alias rm="rm -i"
 
 #prevent tty from stopping
 #stty stop undef
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
 
 export GIT_SSL_NO_VERIFY=1 #temp in new-comer training?
 
@@ -69,3 +70,9 @@ export GIT_SSL_NO_VERIFY=1 #temp in new-comer training?
 tera_user='suzukiyu01'
 tera_pass='fushigidane7R#h'
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages
+
+# pyenv
+# http://qiita.com/yuichy/items/8cd43a667fb4659d89e9
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
