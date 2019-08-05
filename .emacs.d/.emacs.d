@@ -1,1 +1,0 @@
-/home/ysuzuki/dotfiles/.emacs.d
